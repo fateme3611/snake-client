@@ -2,16 +2,16 @@ const handelUserInput = function (key, conn) {
   if (key === "\u0003") {
     process.exit();
   }
-  if (key == "\u001B\u005B\u0041") {
+  if (key == "\u001B\u005B\u0041" || key === "w") {
     conn.write("Move: up");
   }
-  if (key == "\u001B\u005B\u0043") {
+  if (key == "\u001B\u005B\u0043" || key === "d" ) {
     conn.write("Move: right");
   }
-  if (key == "\u001B\u005B\u0042") {
+  if (key == "\u001B\u005B\u0042"|| key === "s") {
     conn.write("Move: down");
   }
-  if (key == "\u001B\u005B\u0044") {
+  if (key == "\u001B\u005B\u0044" || key === "a") {
     conn.write("Move: left");
   }
 
