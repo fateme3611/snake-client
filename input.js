@@ -18,6 +18,9 @@ const handelUserInput = function (key, conn) {
   if (key == "\u0003") {
     process.exit();
   } // ctrl-c
+  if (key === "1"){
+      conn.write("Say: HelloSnakes");
+  }
 };
 
 const setupInput = function (conn) {
