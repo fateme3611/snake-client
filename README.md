@@ -13,6 +13,19 @@ Before you can run this client, you will need to be running the server side whic
 
 
 ## Getting Started
+- before strating the game after cloning the repository you need to run "npm install" command to install all necessary packages
+-  To start the game execute "node play.js" on your computer console/terminal
+    - you need to pass the following argument to the game
+        Connection IP address
+        Connection Port
+        Your name: the default value is N/A
+        e.g., node play.js 125.254.215.2 2525 PLA
 
-- Follow steps inside the snek server repo to run the server side
-- Run the development snake client using the `node play.js` command.
+## instruction
+- you can play the game by pressing up/down/right/left arrow keys or you can use the following keys on your keyboard
+    - w => move up
+    - a => move left
+    - s => move down
+    - d => move right
+- The game can be terminated by pressing Ctrl+C 
+- You can say hello to your friends by pressing 1

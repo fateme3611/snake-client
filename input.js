@@ -1,4 +1,4 @@
-const handelUserInput = function (key, conn) {
+  const handelUserInput = function (key, conn) {
   if (key === "\u0003") {
     process.exit();
   }
